@@ -11,6 +11,6 @@ wine VC_redist.x64.exe
 cd /bannerlord/bin/Win64_Shipping_Server
 
 wine DedicatedCustomServer.Starter.exe \
-    /dedicatedcustomserverconfigfile /bannerlord/configs/ds_config_team_deathmatch.txt \
+    /dedicatedcustomserverconfigfile /bannerlord/configs/$CONFIG_NAME \
     /DisableErrorReporting \
     /dedicatedcustomserverauthtoken $AUTH_TOKEN
